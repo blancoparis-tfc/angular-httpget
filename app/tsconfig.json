@@ -29,7 +29,9 @@
         "component/comun/cuerpo.component.ts",
         "component/comun/pie.component.ts",
         "component/pantallas/about.component.ts",
-        "component/pantallas/contact.component.ts"
+        "component/pantallas/contact.component.ts",
+        "component/pantallas/formulario.component.ts",
+        "model/formulario.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

@@ -5,10 +5,12 @@ import {CabeceraComponent} from './component/comun/cabecera.component';
 import {PieComponent} from './component/comun/pie.component';
 import {AboutComponent} from './component/pantallas/about.component';
 import {ContactComponent} from './component/pantallas/contact.component';
+import {FormularioComponent} from './component/pantallas/formulario.component';
 
 @RouteConfig([
   {path: '/About', component: AboutComponent, as:'About'},
-  {path: '/Contacto', component: ContactComponent,as:'Contacto'}
+  {path: '/Contacto', component: ContactComponent,as:'Contacto'},
+  {path: '/Formulario', component: FormularioComponent,as:'Formulario'}
 ])
 @Component({
   selector:'my-app',
